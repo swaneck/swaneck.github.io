@@ -1,0 +1,89 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #37474f;
+  /* font-family: "Carter One", cursive; */
+  font-family: "Luckiest Guy", "M PLUS 1p", cursive;
+  /* font-family: "Harmattan", sans-serif; */
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* #2E2E2E #626262 #FF5722 #FF9800 #FFC107 */
+.wrapper {
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  width: 25vw;
+  height: 100vh;
+  padding: 10vw 5vw;
+  border-right: #eaeaea 1px solid;
+}
+
+.header_name {
+  margin-bottom: 10vh;
+}
+
+.header_name h1 {
+  color: #fdd835;
+  font-size: 3vw;
+}
+
+.nav_wrap {
+  margin-bottom: 10vh;
+}
+
+.nav_wrap nav li {
+  font-size: 2vw;
+  margin-bottom: 2vh;
+}
+
+.nav_wrap nav li a {
+  color: #eaeaea;
+}
+
+.sns_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sns_wrap .github a {
+  color: #9e9e9e;
+}
+
+.sns_wrap .wordpress a {
+  color: #607d8b;
+}
+
+.top_right {
+  width: 75vw;
+  height: 100vh;
+  padding: 5vw 5vw;
+}
+
+.content_title {
+  margin-bottom: 5vh;
+}
+
+.content_body {
+  height: 80vh;
+  padding: 1vw 1vw;
+}
+
+i {
+  font-size: 3vw;
+}
