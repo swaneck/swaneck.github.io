@@ -1,0 +1,42 @@
+nav li.nav_skills {
+  color: #607d8b;
+}
+
+h2 {
+  margin-bottom: 10vh;
+}
+
+.skills_wrap {
+  padding: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill_name {
+  font-size: 1.5vw;
+}
+
+.skills_wrap .devicon-html5-plain-wordmark {
+  font-size: 10vw;
+}
+.skills_wrap .devicon-php-plain {
+  font-size: 10vw;
+}
+
+.skills_wrap .devicon-ruby-plain-wordmark {
+  font-size: 10vw;
+}
+
+.skills_wrap .devicon-css3-plain-wordmark {
+  font-size: 10vw;
+}
+
+.skills_wrap .devicon-javascript-plain {
+  font-size: 10vw;
+}
+
+.skills_wrap .devicon-jquery-plain-wordmark {
+  font-size: 10vw;
+}
