@@ -41,6 +41,15 @@
       media="screen"
       href="./css/skills.css"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <!-- <script src="main.js"></script> -->
   </head>
   <body>
@@ -51,7 +60,7 @@
           <div class="nav_wrap">
             <nav>
               <li class="nav_profile"><a href="./profile.html">PROFILE</a></li>
-              <li class="nav_skills">SKILLS</li>
+              <li class="nav_skills selected">SKILLS</li>
               <li class="nav_works"><a href="./works.html">WORKS</a></li>
               <li class="nav_link"><a href="./link.html">LINK</a></li>
               <li class="nav_contact"><a href="./contact.html">CONTACT</a></li>
@@ -78,36 +87,141 @@
         </header>
         <div class="top_right">
           <h2>SKILLS</h2>
-          <div class="skills_wrap">
-            <div class="skills_icon">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-            </div>
-            <div class="skills_icon">
-              <i class="devicon-css3-plain-wordmark colored"></i>
-            </div>
-            <div class="skills_icon">
-              <i class="devicon-javascript-plain colored"></i>
-              <div class="javascript"></div>
-            </div>
-            <div class="skills_icon">
-              <i class="devicon-jquery-plain-wordmark colored"></i>
-              <div class="jQuery"></div>
-            </div>
-            <div class="skills_icon">
-              <i class="devicon-php-plain colored"></i>
-            </div>
-            <div class="skills_icon">
-              <i class="devicon-ruby-plain-wordmark colored"></i>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <div class="glide__slides">
+                <div class="glide__slide">
+                  <div class="skills_icons">
+                    <div class="skills_icon">
+                      <i class="devicon-html5-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skills_icon">
+                      <i class="devicon-css3-plain-wordmark colored"></i>
+                    </div>
+                  </div>
+                  <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #d35400;">
+                      <span>HTML5</span>
+                    </div>
+                    <div
+                      class="skillbar-bar"
+                      style="background: #e67e22;"
+                    ></div>
+                    <div class="skill-bar-percent">80%</div>
+                  </div>
+                  <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #2980b9;">
+                      <span>CSS3</span>
+                    </div>
+                    <div
+                      class="skillbar-bar"
+                      style="background: #3498db;"
+                    ></div>
+                    <div class="skill-bar-percent">80%</div>
+                  </div>
+                </div>
+                <div class="glide__slide">
+                  <div class="skills_icons">
+                    <div class="skills_icon">
+                      <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <div class="skills_icon">
+                      <i class="devicon-jquery-plain-wordmark colored"></i>
+                    </div>
+                  </div>
+                  <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #fdd835;">
+                      <span>JavaScript</span>
+                    </div>
+                    <div
+                      class="skillbar-bar"
+                      style="background: #e67e22;"
+                    ></div>
+                    <div class="skill-bar-percent">80%</div>
+                  </div>
+                  <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #2980b9;">
+                      <span>jQuery</span>
+                    </div>
+                    <div
+                      class="skillbar-bar"
+                      style="background: #3498db;"
+                    ></div>
+                    <div class="skill-bar-percent">80%</div>
+                  </div>
+                </div>
+                <div class="glide__slide">
+                  <div class="skills_icons">
+                    <div class="skills_icon">
+                      <i class="devicon-php-plain colored"></i>
+                    </div>
+                    <div class="skills_icon">
+                      <i class="devicon-ruby-plain-wordmark colored"></i>
+                    </div>
+                  </div>
+                  <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #fdd835;">
+                      <span>php</span>
+                    </div>
+                    <div
+                      class="skillbar-bar"
+                      style="background: #e67e22;"
+                    ></div>
+                    <div class="skill-bar-percent">80%</div>
+                  </div>
+                  <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #2980b9;">
+                      <span>ruby</span>
+                    </div>
+                    <div
+                      class="skillbar-bar"
+                      style="background: #3498db;"
+                    ></div>
+                    <div class="skill-bar-percent">80%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                  prev
+                </button>
+                <button
+                  class="glide__arrow glide__arrow--right"
+                  data-glide-dir=">"
+                >
+                  next
+                </button>
+              </div>
             </div>
           </div>
         </div>
+        <footer>
+          <div class="inner">
+            <div class="sns"></div>
+            <p class="copy"></p>
+          </div>
+        </footer>
       </div>
-      <footer>
-        <div class="inner">
-          <div class="sns"></div>
-          <p class="copy"></p>
-        </div>
-      </footer>
     </div>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script>
+      new Glide(".glide").mount();
+
+      jQuery(document).ready(function() {
+        jQuery(".skillbar").each(function() {
+          jQuery(this)
+            .find(".skillbar-bar")
+            .animate(
+              {
+                width: jQuery(this).attr("data-percent")
+              },
+              6000
+            );
+        });
+      });
+    </script>
   </body>
 </html>

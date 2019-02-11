@@ -74,9 +74,9 @@ nav li.selected {
 }
 
 .top_right {
-  width: 75vw;
+  width: 65vw;
   height: 100vh;
-  padding: 5vw 5vw;
+  padding: 5vw 10vw;
 }
 
 .content_title {
