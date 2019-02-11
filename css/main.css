@@ -54,6 +54,10 @@ header {
   color: #eaeaea;
 }
 
+nav li.selected {
+  color: #607d8b;
+}
+
 .sns_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
