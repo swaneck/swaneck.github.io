@@ -41,6 +41,10 @@ header {
   font-size: 3vw;
 }
 
+.top_right h2 {
+  margin-bottom: 10vh;
+}
+
 .nav_wrap {
   margin-bottom: 10vh;
 }
