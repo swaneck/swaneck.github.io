@@ -33,12 +33,7 @@
   font-size: 10vw;
 }
 
-.glide__slide {
-  padding-bottom: 30vh;
-}
-
 .glide__slides {
-  /* margin-bottom: 50vh; */
   text-align: center;
 }
 
@@ -131,8 +126,14 @@
 .glide__arrow {
   height: 5vh;
   width: 5vw;
+  top: 50vh;
+
 }
 
-.arrows-group {
-  padding-top: 30vh;
+.glide__arrow--left {
+  top: 50vh !important;
+}
+
+.glide__arrow--right {
+  top: 50vh !important;
 }
