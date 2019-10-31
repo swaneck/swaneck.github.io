@@ -2,8 +2,7 @@
   margin-bottom: 5vh;
 }
 
-.image {
-  height: 20vh;
-  width: 15vw;
-  background-color: azure;
+.image-wrap img{
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px;
 }
