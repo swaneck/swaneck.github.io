@@ -2,4 +2,14 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 5vh;
   font-weight: bold;
+  /* color: #c62828; */
+  color: #eaeaea;
+  text-align: center;
+}
+
+.mail-wrap {
+  padding: 5vw;
+  /* border-radius: 10px;
+  filter: drop-shadow(20px 20px 20px rgba(0,0,0,0.4));
+  background: #263238; */
 }
