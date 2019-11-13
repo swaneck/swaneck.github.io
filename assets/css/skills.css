@@ -11,7 +11,7 @@
 }
 
 .skills_wrap .devicon-html5-plain-wordmark {
-  font-size: 10vw;
+  font-size: 1vw;
 }
 .skills_wrap .devicon-php-plain {
   font-size: 10vw;
@@ -22,7 +22,7 @@
 }
 
 .skills_wrap .devicon-css3-plain-wordmark {
-  font-size: 10vw;
+  font-size: 1vw;
 }
 
 .skills_wrap .devicon-javascript-plain {
@@ -53,8 +53,9 @@
 .skillbar {
   position: relative;
   display: block;
+  margin: 0 auto;
   margin-bottom: 15px;
-  width: 100%;
+  width: 70%;
   background: #eee;
   height: 35px;
   border-radius: 3px;
@@ -131,9 +132,20 @@
 }
 
 .glide__arrow--left {
-  top: 50vh !important;
+  top: 55vh !important;
 }
 
 .glide__arrow--right {
-  top: 50vh !important;
+  top: 55vh !important;
 }
+
+.despcription-body {
+  padding-top: 2vh;
+  color: #eaeaea;
+}
+
+p {
+  /* font-family: "Carter One", cursive; */
+  font-family: "Harmattan", sans-serif;
+}
+
