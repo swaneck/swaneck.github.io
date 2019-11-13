@@ -1,5 +1,5 @@
 .top_right {
-  width: 100%;
+  width: 80vw;
 }
 
 .sub-title {
@@ -18,13 +18,12 @@
 }
 
 .work-thumbnail {
-  /* width: 200px; */
-  /* height: 200px; */
+  margin-bottom: 1vh;
+  filter: drop-shadow(15px 15px 15px rgba(0,0,0,0.6));
 }
 
 .sample {
   width: 350px;
   height: 300px;
-  object-fit: scale-down;
-  background-color: black;
+  object-fit: contain;
 }
