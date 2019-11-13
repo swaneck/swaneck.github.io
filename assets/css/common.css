@@ -7,7 +7,7 @@ body {
   background-color: #37474f;
   /* font-family: "Carter One", cursive; */
   font-family: "Luckiest Guy", "M PLUS 1p", cursive;
-  /* font-family: "Harmattan", sans-serif; */
+  /* font-f[amily: "Harmattan", sans-serif; */
   list-style: none;
 }
 
@@ -26,9 +26,9 @@ a:hover {
 }
 
 header {
-  width: 25vw;
+  width: 20vw;
   height: 100vh;
-  padding: 10vw 5vw;
+  padding: 10vw 3vw;
   border-right: #eaeaea 1px solid;
 }
 
@@ -40,9 +40,16 @@ header {
   color: #fdd835;
   font-size: 3vw;
 }
+.top_right {
+  margin: 0 auto;
+  width: 65vw;
+  height: 100vh;
+  padding: 5vw 2vw;
+}
 
 .top_right h2 {
   margin-bottom: 10vh;
+  padding-left: 5vw;
 }
 
 .nav_wrap {
@@ -75,12 +82,6 @@ nav li.selected {
 
 .sns_wrap .wordpress a {
   color: #607d8b;
-}
-
-.top_right {
-  width: 65vw;
-  height: 100vh;
-  padding: 5vw 10vw;
 }
 
 .content_title {
