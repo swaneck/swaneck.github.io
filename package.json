@@ -17,5 +17,8 @@
   "devDependencies": {
     "@glidejs/glide": "^3.2.6",
     "jquery": "^3.3.1"
+  },
+  "dependencies": {
+    "lightbox2": "^2.11.1"
   }
 }
