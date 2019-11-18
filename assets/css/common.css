@@ -242,7 +242,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 8vw;
   }
 
   .sns_wrap .twitter {
@@ -264,7 +263,6 @@ body {
   i {
     font-size: 10vw;
   }
-
 
   /* open */
   .open {
