@@ -1,13 +1,5 @@
-.profile-wrapper {
-  display: flex;
-}
-
-#profile-image {
-  margin-bottom: 5vh;
-}
-
 .image-wrap {
-  width: 15vw;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -22,9 +14,32 @@
 }
 
 .profile-body {
-  padding: 1vw;
+  color: #eaeaea;
 }
 
-.profile-body {
-  color: #eaeaea;
+/* PC */
+@media (min-width: 768px) {
+  .profile-wrapper {
+    display: flex;
+  }
+
+  #profile-image {
+    margin-bottom: 5vh;
+  }
+
+  .image-wrap {
+    width: 15vw;
+    text-align: center;
+  }
+
+  .profile-body {
+    padding: 1vw;
+  }
+}
+
+/* スマホ、タブレット対応 メディアクエリ */
+@media (max-width: 767px) {
+  .image-wrap {
+    width: 60vw;
+  }
 }

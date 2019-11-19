@@ -11,6 +11,10 @@ body {
   list-style: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   a:hover {
     text-decoration: none;
@@ -289,8 +293,10 @@ body {
     transform: translateX(0);
     transition:  transform 1s ease, opacity .9s ease;
   }
-}
 
+  .top_right{
+    padding: 0 20px;
+  }
 
 
 
