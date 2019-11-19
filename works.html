@@ -101,6 +101,15 @@
   </div>
   </div>
   <script src="./node_modules/lightbox2/dist/js/lightbox.js"></script>
+  <script type="text/javascript">
+    (function ($) {
+      $(function () {
+        $('#nav-toggle').on('click', function () {
+          $('body').toggleClass('open');
+        });
+      });
+    })(jQuery);
+  </script>
 </body>
 
 </html>
