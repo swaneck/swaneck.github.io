@@ -102,6 +102,17 @@ body {
 /* スマホ、タブレット対応 メディアクエリ */
 @media (max-width: 767px) {
 
+  .header_name {
+    margin-bottom: 5vh;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header_name h1 {
+    color: #fdd835;
+  }
+
   /* navigation */
   #nav-toggle {
     position: fixed;
