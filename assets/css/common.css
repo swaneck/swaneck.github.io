@@ -208,11 +208,14 @@ a:hover {
     transition: opacity .6s ease, visibility .6s ease;
   }
 
+  .nav_wrap li {
+    padding: 10px 0;
+  }
+
   .nav_wrap a {
     display: block;
     color: #fff;
     text-decoration: none;
-    padding: 10px 0;
     transition: color .6s ease;
   }
 
@@ -275,6 +278,19 @@ a:hover {
   .sns_wrap .wordpress a {
     color: #607d8b;
   }
+
+  .twitter i {
+    color: #55acee;
+  }
+
+  .github i {
+    color: #eaeaea;
+  }
+
+  .wordpress i {
+    color: #21759b;
+  }
+
 
   i {
     font-size: 10vw;
