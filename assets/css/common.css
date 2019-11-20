@@ -107,10 +107,11 @@ a:hover {
 @media (max-width: 767px) {
 
   .header_name {
-    margin-bottom: 5vh;
     padding-top: 25px;
-    width: 100%;
+    width: 40%;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5vh;
   }
 
   .header_name h1 {
