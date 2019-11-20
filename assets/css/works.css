@@ -1,29 +1,54 @@
-.top_right {
-  width: 80vw;
-}
-
-.sub-title {
-  margin-bottom: 10vh;
-}
-
-.works-list{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.work {
-  flex-basis: 33%;
-}
-
-.work-thumbnail {
-  margin-bottom: 1vh;
-  filter: drop-shadow(15px 15px 15px rgba(0,0,0,0.6));
-}
-
 .sample {
   width: 350px;
   height: 300px;
   object-fit: contain;
+}
+
+/* PC */
+@media (min-width: 768px) {
+  .top_right {
+    width: 80vw;
+  }
+
+  .sub-title {
+    margin-bottom: 10vh;
+  }
+
+  .works-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work {
+    flex-basis: 33%;
+  }
+
+  .work-thumbnail {
+    margin-bottom: 1vh;
+    filter: drop-shadow(15px 15px 15px rgba(0,0,0,0.6));
+  }
+}
+
+/* スマホ、タブレット対応 メディアクエリ */
+@media (max-width: 767px) {
+  .works-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work {
+    margin-bottom: 3vh;
+  }
+
+  .work-title {
+    visibility: hidden;
+  }
+
+  .work-thumbnail {
+    filter: drop-shadow(15px 15px 15px rgba(0,0,0,0.6));
+  }
 }
