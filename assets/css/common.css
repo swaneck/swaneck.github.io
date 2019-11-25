@@ -15,6 +15,7 @@ a:hover {
   text-decoration: none;
 }
 
+/* PC */
 @media (min-width: 768px) {
   a:hover {
     text-decoration: none;
@@ -26,11 +27,12 @@ a:hover {
     display: flex;
   }
 
-  header {
+  .content header {
     width: 20vw;
     height: 100vh;
     padding: 10vw 3vw;
-    border-right: #eaeaea 1px solid;
+    border-right: #607d8b 1px solid;
+    text-align: center;
   }
 
   .header_name {
@@ -68,6 +70,10 @@ a:hover {
 
   .nav_wrap nav li a {
     color: #eaeaea;
+  }
+
+  .nav_wrap nav li a:hover {
+    color: #55acee;
   }
 
   nav li.selected {
