@@ -194,6 +194,10 @@ a:hover {
     z-index: 900;
   }
 
+  .top_right h2{
+    margin-bottom: 10vh;
+  }
+
   .nav_wrap {
     background: #000;
     color: #fff;
