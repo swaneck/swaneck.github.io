@@ -217,11 +217,11 @@
   .despcription-body {
     padding-top: 2vh;
     color: #eaeaea;
+    text-align: left;
   }
 
   p {
     /* font-family: "Carter One", cursive; */
     font-family: "Harmattan", sans-serif;
   }
-}
 }
