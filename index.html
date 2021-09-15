@@ -86,9 +86,9 @@
           </div>
           <div class="profile-body">
             <p class="profile-text">
-              北海道札幌市在住1990年生まれの30歳。<br>
+              北海道札幌市在住1990年生まれ。<br>
               HTML/CSSコーダー → WEBプログラマー → SEと経験をしてきました。<br>
-              IT業界歴は、約4年になりました。<br>
+              IT業界歴は、約<span id="experience">4</span>年になりました。<br>
               大学入学から10年弱都内に住んでいましたが、2018年から札幌にUターンして、働いています。<br>
             </p>
           </div>
@@ -104,6 +104,9 @@
         });
       });
     })(jQuery);
+    
+    date = new Date();
+    document.getElementById("experience").innerText = date.getFullYear() - 2016;
   </script>
 </body>
 
